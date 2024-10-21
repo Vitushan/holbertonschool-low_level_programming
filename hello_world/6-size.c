@@ -4,6 +4,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
+ * sizof for see a file size
  */
 int main(void)
 {
