@@ -3,6 +3,6 @@
 /* main is function for print*/
 int main(void)/*function main*/
 { /*function main*/
-puts("\"Programming is like building a multilingual puzzle");/*main function is main function:w
+puts("\"Programming is like building a multilingual puzzle");/*main function is main function*/
 return (0);
 }
