@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main is function for print and 
+ * main is function for print and
+ *  
  * return 0 for succes
  */
 int main(void)
