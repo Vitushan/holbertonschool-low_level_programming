@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-	sizeof= 0;
 	printf("%d",sizeof);
 	return (0);
 }
