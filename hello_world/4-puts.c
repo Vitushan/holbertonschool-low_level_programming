@@ -3,7 +3,7 @@
 /**
  * main - is function for print and
  *
- * return: 0 for succes
+ * Return: always 0 (succes)
  */
 int main(void)
 {
