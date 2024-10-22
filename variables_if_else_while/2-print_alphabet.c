@@ -2,9 +2,9 @@
 
 int main (void)
 {
-  char alpha;
-  int i = 0;
-  for (alpha ='a'; alpha <= 'z';i++)
+  char alpha = 'a';
+  
+  for (alpha ='a'; alpha <= 'z'; alpha++)
     {
       putchar(alpha);
     }
