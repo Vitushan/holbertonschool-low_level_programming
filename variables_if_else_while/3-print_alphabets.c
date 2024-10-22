@@ -8,7 +8,7 @@ int main(void)
   {
     putchar(min);
   }
-  for(maj = 'A'; maj <= 'Z'; min++)
+  for(maj = 'A'; maj <= 'Z'; maj++)
   {
     putchar(maj);
   }
