@@ -7,7 +7,11 @@
  */
 int main(void)
 {
-  char  min = 'a';
-  
-  return (0);
+	char min;
+	
+	for (min = 'a'; min <= 'z'; min++)
+	{
+		putchar(min);
+	}
+	return (0);
 }
