@@ -1,17 +1,21 @@
 #include <stdio.h>
 
- /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+/**
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	char min;
+  char min, e = 'e' , q = 'q';
 	
 	for (min = 'a'; min <= 'z'; min++)
 	{
+		if (min != e && != q)
+		{
 		putchar(min);
+		}
 	}
+		putchar(\n);
 	return (0);
 }
