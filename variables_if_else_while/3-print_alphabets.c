@@ -4,11 +4,11 @@ int main(void)
 {
   char min = 'a', maj = 'A';
 
-  for(min = 'a'; min <= 'z'; min++);
+  for(min = 'a'; min <= 'z'; min++)
   {
     putchar(min);
   }
-  for(maj = 'A'; maj <= 'Z'; min++);
+  for(maj = 'A'; maj <= 'Z'; min++)
   {
     putchar(maj);
   }
