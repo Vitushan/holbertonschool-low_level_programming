@@ -7,15 +7,17 @@
 */
 int main(void)
 {
-  char min, e = 'e' , q = 'q';
+     char min, e = 'e', q = 'q';
+
+    for (min = 'a'; min <= 'z'; min++)
+    {
+        if (min != e && min != q)
+        {
+            putchar(min);
+        }
+    }
+    putchar('\n');
 	
-	for (min = 'a'; min <= 'z'; min++)
-	{
-		if (min != e && != q)
-		{
-		putchar(min);
-		}
-	}
-		putchar(\n);
+	
 	return (0);
 }
