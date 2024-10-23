@@ -15,7 +15,7 @@ int main(void)
 		}
 	for (hexa = 97; hexa <= 102; hexa++)
 		{
-			putchar(hexa+ 0);
+			putchar(hexa + 0);
 		}
 
 			putchar('\n');
