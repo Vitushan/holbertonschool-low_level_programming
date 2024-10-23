@@ -8,8 +8,8 @@
 int main(void)
 {
 	int hexa = 0;
-	
-	for(hexa = 48; hexa <= 57; hexa++) 
+
+	for (hexa = 48; hexa <= 57; hexa++)
 		{
 			putchar(hexa + 0);
 		}
@@ -17,7 +17,7 @@ int main(void)
 		{
 			putchar(hexa+ 0);
 		}
-	
-	putchar('\n');
+
+			putchar('\n');
 	return (0);
 }
