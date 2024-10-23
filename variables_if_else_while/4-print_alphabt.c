@@ -13,10 +13,10 @@ int main(void)
 	for (min = 'a'; min <= 'z'; min++)
 	{
 		if(min != e && min != q)
-	{
+	
 		putchar(min);
 	}
 		putchar('\n');
-	}
+	
 	return (0);
 }
