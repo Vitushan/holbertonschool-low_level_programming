@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	int i = 0, nb = 10;
+	int i = 0;
 	
-	for (nb = 10; i < 10; i++)
-	printf("%d\n", nb);
+	for (i = 0; i <= 10; i++)
+	printf("%d\n", i);
 	return (0);
 }
 
