@@ -8,7 +8,6 @@
 int main(void)
 {
 	char alpha = 'a';
-        int i = 0;
 	
 	for (alpha ='a'; alpha >= 'z'; alpha++)
 	{
