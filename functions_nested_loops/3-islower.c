@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _islower(int c);
 {
 	char alpha = 'a';
 	char c = 'c'
@@ -13,11 +13,11 @@ int main(void)
 	{
 		_putchar(alpha);
 	}
-	if ( 'C' =! c)
+	if ( 'C' != c)
 	{
 		_putchar return (1);
 	}
 	else
 		_putchar return (0);
 	_putchar('\n');
-	return (1);
+	
