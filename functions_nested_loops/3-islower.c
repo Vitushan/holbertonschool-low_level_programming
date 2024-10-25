@@ -11,4 +11,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	if ( 'c' == 'c')
-	_putchar(alpha);
+	{
+		_putchar(alpha);
+	}
+	_putchar(\n);
