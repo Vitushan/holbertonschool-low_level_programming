@@ -10,9 +10,14 @@ int main(void)
 	char alpha = 'a';
 	char c = 'c'
 	while (alpha <= 'z')
-	if ( 'c' != 'C')
 	{
 		_putchar(alpha);
 	}
+	if ( 'C' =! c)
+	{
+		_putchar return (1);
+	}
+	else
+		_putchar return (0);
 	_putchar('\n');
 	return (1);
