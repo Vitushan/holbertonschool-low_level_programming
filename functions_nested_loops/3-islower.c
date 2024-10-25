@@ -5,20 +5,11 @@
  *
  * Return: Always 0.
  */
-int _islower(int c);
+int _islower(int c)
 {
-	char alpha = 'a';
-
-	while (alpha <= 'z')
+	if ( 97 <= c <= 122)
 	{
-		_putchar(alpha);
-		alpha++;
+		return (1);
 	}
-	if ( 'c' != 'C')
-	{
-		_putchar return (1);
-	}
-	else
-		_putchar return (0);
-
-	
+	return (0);
+}
