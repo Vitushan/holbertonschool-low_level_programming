@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 
+ *
  *_islower(int c) - code return 0 or 1
  *
  * Return: Always 0.
