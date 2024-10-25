@@ -12,6 +12,7 @@ int _islower(int c);
 	while (alpha <= 'z')
 	{
 		_putchar(alpha);
+		alpha++;
 	}
 	if ( 'c' != 'C')
 	{
