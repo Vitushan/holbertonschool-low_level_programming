@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * print_alphabet_x10 - check the code.
  *
  * Return: Always 0.
  */
@@ -10,10 +10,14 @@ void print_alphabet_x10(void)
 
 	char alpha = 'a';
 	int alph = 0;
-	while (alpha <= 'z') && (alph <= 10)
+	for (alph =0 ; alph < 10; alph++)
 	{
-		_putchar(alpha);
-		alpha++;
+		for (alpha ='a' ; alpha <= 'z';alpha++)
+		{
+			_putchar(alpha);
+		}
+		_putchar ('\n');
 	}
-	return (0);
+
+
 }
