@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - code return 0 or 1
+ * function _isalpha - code return 0 or 1
  * @c: the character to check
  * Return: Always 0.
  */
