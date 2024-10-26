@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * int print_sign(int n)- check the code.
- *Prototype: int print_sign(int n);
-Returns 1 and prints + if n is greater than zero
-Returns 0 and prints 0 if n is zero
-Returns -1 and prints - if n is less than zero
+ * -sign - Compare if a number is great less or equal of 0
+ *@n: Integer to check, given an ascii code.
+ *Return 1 and prints + if n is superior a zero
+ *Return 0 and prints 0 if n is zero
+ *Return -1 and prints less a  zero
  */
 int print_sign(int n)
 {
