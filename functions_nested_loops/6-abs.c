@@ -3,6 +3,17 @@
 
 int _abs(int)
 {
-	_putchar(abs):
-	return (0);
+	if (n < 0)
+	{
+		return (-n);
+	}
+	else if (n == 0)
+	{
+		return (0);
+	}
+	else
+	{
+		return (n);
+	}
+
 }
