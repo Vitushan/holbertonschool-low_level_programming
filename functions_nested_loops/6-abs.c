@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * int _abs(int n) - code return -n
- * prototype: int _abs(int)
- *calculate absolute functions
- *@n: The integer type
+ * _abs - Calculate the absolute value of an integer.
+ * @n: The integer to check.
+ *
+ * Return: The absolute value of n.
  */
 int _abs(int n)
 {
