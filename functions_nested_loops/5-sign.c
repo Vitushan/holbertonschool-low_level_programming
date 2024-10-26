@@ -1,11 +1,15 @@
 #include "main.h"
 
 /**
- * -sign -
- * Compare if a number is great less or equal of 0
- *@n: Integer type
+ * print_sign - Prints the sign of a number.
+ * @n: The number to check.
+ *
+ * Return: 1 and prints '+' if n is greater than zero,
+ *         0 and prints '0' if n is equal to zero,
+ *         -1 and prints '-' if n is less than zero.
  */
-int print_sign(int n)
+
+  int print_sign(int n)
 {
 	if (n > 0)
 	{
