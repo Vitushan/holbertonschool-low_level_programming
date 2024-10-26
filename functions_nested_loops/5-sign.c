@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * -sign - 
+ * -sign -
  * Compare if a number is great less or equal of 0
  *@n: Integer type
  */
