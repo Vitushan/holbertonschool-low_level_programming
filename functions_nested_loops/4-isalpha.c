@@ -5,11 +5,12 @@
  *
  * Return: Always 0.
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-	if ('a' <= c && c <= 'z') || ('a' <= C && C <= 'z')
+
+	if ('a' <= c && c <= 'z')
 	{
 		return (1);
 	}
-		return (0);
+	return (0);
 }
