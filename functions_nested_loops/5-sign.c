@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * int print_sign(int n)- check the code.
+ *int print_sign and number
  *
- * Return: Always 0.
+ * Return: Always 0 , 1 or -1;
  */
 int print_sign(int n)
 {
