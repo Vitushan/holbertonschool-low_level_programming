@@ -4,7 +4,8 @@
  * function _isalpha - code return 0 or 1
  * @c: the character to check
  * Return: Always 0.
- */
+ * _isalpha function return 1 or 0 if uppercase or lowercase
+ */ 
 int _isalpha(int c)
 {
 
