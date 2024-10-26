@@ -3,7 +3,6 @@
 
 int _abs(int)
 {
-	(absoluteValue = abs( value );
-	_putchar(n);
+	_putchar(abs):
 	return (0);
 }
