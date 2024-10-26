@@ -2,9 +2,10 @@
 
 /**
  * int print_sign(int n)- check the code.
- *int print_sign and number
- *
- * Return: Always 0 , 1 or -1;
+ *Prototype: int print_sign(int n);
+Returns 1 and prints + if n is greater than zero
+Returns 0 and prints 0 if n is zero
+Returns -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
