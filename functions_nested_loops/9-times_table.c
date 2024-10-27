@@ -27,14 +27,14 @@ int table_id, line, product;
 		}
 
 		if (product >= 10)
-            	{	
+		{
 			_putchar((product / 10) + '0');
-            	}
+		}
 			_putchar((product % 10) + '0');
 
 		if (line == 9)
 		{
-                _putchar('\n');
+			_putchar('\n');
 		}
 	}
 	}
