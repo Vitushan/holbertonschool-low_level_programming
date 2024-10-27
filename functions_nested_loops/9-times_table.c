@@ -7,32 +7,32 @@
  */
 void times_table(void)
 {
-int table_id, line, product;
+int table_id, column, result;
 
 		for (table_id = 0; table_id <= 9; table_id++)
 		{
-		for (line = 0; line <= 9; line++)
+		for (column = 0; column <= 9; column++)
 		{
-		product = table_id * line;
+		result = table_id * column;
 
-		if (line > 0)
+		if (column > 0)
 		{
 			_putchar(',');
 			_putchar(' ');
 		}
 
-		if (product < 10 && line > 0)
+		if (result < 10 && column > 0)
 		{
 			_putchar(' ');
 		}
 
-		if (product >= 10)
+		if (result >= 10)
 		{
-			_putchar((product / 10) + '0');
+			_putchar((result / 10) + '0');
 		}
-			_putchar((product % 10) + '0');
+			_putchar((result % 10) + '0');
 
-		if (line == 9)
+		if (column == 9)
 		{
 			_putchar('\n');
 		}
