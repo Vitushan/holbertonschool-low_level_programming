@@ -1,18 +1,24 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * jack_bauer - prints every minute of the day
  *
- * Return: Always 0.
+ * Return: void
  */
-void times_table(void)
+void jack_bauer(void)
 {
-	int hours = 0;
-	int minutes = 0;
+    int hours, minutes;
 
-	for (; hours < 24 ; hours++)
-	{
-		for (; minutes < 60; minutes++)
-	}
-
+    for (hours = 0; hours < 24; hours++)
+    {
+        for (minutes = 0; minutes < 60; minutes++)
+        {
+            _putchar((hours / 10) + '0');
+            _putchar((hours % 10) + '0');
+            _putchar(':');
+            _putchar((minutes / 10) + '0');
+            _putchar((minutes % 10) + '0');
+            _putchar('\n');
+        }
+    }
 }
