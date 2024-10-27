@@ -8,15 +8,15 @@ void print_to_98(int n)
 {
     while (n != 98)
     {
-        _putchar(n + '0'); // Print the current number
+        _putchar(n + '0');
         if (n != 98)
         {
-            _putchar(',');
-            _putchar(' ');
-        }
-        n += (n < 98) ? 1 : -1; // Increment or decrement n
+        	   _putchar(',');
+	          _putchar(' ');
+
+        n += (n < 98) ? 1 : -1;
     }
-    _putchar('9'); // Print the tens digit of 98
-    _putchar('8'); // Print the units digit of 98
-    _putchar('\n'); // New line
+    _putchar('9');
+    _putchar('8');
+    _putchar('\n');
 }
