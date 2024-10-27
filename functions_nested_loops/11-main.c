@@ -1,22 +1,16 @@
 #include "main.h"
 
 /**
- * print_to_98 - Prints all natural numbers from n to 98, separated by a comma and a space.
- * @n: The starting number.
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-void print_to_98(int n)
+int main(void)
 {
-    while (n != 98)
-    {
-        _putchar(n + '0');
-        if (n != 98)
-        {
-        	   _putchar(',');
-	          _putchar(' ');
-
-        n += (n < 98) ? 1 : -1;
-    }
-    _putchar('9');
-    _putchar('8');
-    _putchar('\n');
+    print_to_98(0);
+    print_to_98(98);
+    print_to_98(111);
+    print_to_98(81);
+    print_to_98(-10);
+    return (0);
 }
