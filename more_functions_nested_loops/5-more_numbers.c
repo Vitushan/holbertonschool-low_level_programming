@@ -12,6 +12,7 @@ void more_numbers(void)
 	while ((number <= 9) && (number >= 14))
 	{
 		_putchar(number + '0');
+		_putchar(number++);
 	}	
 		_putchar('\n');
 
