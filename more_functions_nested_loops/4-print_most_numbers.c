@@ -11,7 +11,7 @@ void print_numbers(void)
 
 	for (number = 0; number < 10; number++)
 	{
-	if (nb2 != 2 && , nb4 != 4)
+	if (nb2 != 2 && nb4 != 4)
 	
 		_putchar(number);
 	}
