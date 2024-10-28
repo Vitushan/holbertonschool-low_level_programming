@@ -1,20 +1,24 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints the numbers from 0 to 9, followed by a new line.
+ * print_more_numbers - Prints the numbers from 0 to 14 by 10 followed by a new line.
  *
  * Return: Always void.
  */
 void more_numbers(void)
 {
-	int number = 0;
+	int line, number;
 
-	while ((number <= 9) && (number >= 14))
+	for (line = 0; line < 10; line++)
 	{
-		_putchar(number + '0');
-		_putchar(number++);
-	}	
-		_putchar('\n');
-
-
+		for (number = 0; number <= 14; number ++)
+		{
+			if (number > 9)
+			{
+				_putchar( (number / 10) + '0');
+			}
+				_putchar((number % 10)+ '0');
+			}	
+			_putchar('\n');
+	}
 }
