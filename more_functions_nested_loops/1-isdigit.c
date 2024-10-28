@@ -14,10 +14,3 @@ int _isdigit(int c)
 	}
 	return (0);
 }
-
-/**
- * _isdigit - Checks if the character is a digit (0-9).
- * @c: The character to check.
- *
- * Return: 1 if c is a digit, 0 otherwise.
- */
