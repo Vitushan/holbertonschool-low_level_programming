@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* print_more_numbers - 
-* Prints the numbers from 0 to 14 by 10.
+* print_more_numbers -
+* void more_numbersPrints the numbers from 0 to 14 by 10.
 * followed by a new line.
 *
 * Return: Always void.
