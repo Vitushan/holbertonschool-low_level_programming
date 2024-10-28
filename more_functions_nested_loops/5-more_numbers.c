@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-* print_more_numbers -
-* void more_numbersPrints the numbers from 0 to 14 by 10.
-* followed by a new line.
+* more_numbers - Prints the number from 0 to 14, ten times.
 *
-* Return: Always void.
+* description: This function prints numbers from 0 to 14 in a single line,
+* repeating this sequence ten times. Each sequence of numbers is followed by a new line.
+*
+* Return: this function does not return any value (void)
 */
 void more_numbers(void)
 {
@@ -24,3 +25,12 @@ void more_numbers(void)
 			_putchar('\n');
 	}
 }
+/**
+ * more_numbers - Prints the numbers from 0 to 14, ten times.
+ *
+ * Description: This function prints numbers from 0 to 14 on a single line,
+ * repeating this sequence ten times. Each sequence of numbers is followed by
+ * a new line.
+ *
+ * Return: This function does not return any value (void).
+ */
