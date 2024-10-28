@@ -3,7 +3,8 @@
 /**
 * _isdigit - Check if c is number
 * followed by a new line.
-* @n: The checking number.
+* @n: The checking number
+* return 1 if number and 0 if not number
 */
 int _isdigit(int c)
 {
