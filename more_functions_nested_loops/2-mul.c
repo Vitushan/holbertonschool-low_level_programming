@@ -3,7 +3,7 @@
 /**
  * mul - Multiplies two integers and returns the result.
  *
- * This function takes two integers as input, multiplies them, 
+ * This function takes two integers as input, multiplies them,
  * and returns their product.
  *
  * @a: The first integer to multiply.
