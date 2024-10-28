@@ -4,7 +4,8 @@
 * more_numbers - Prints the number from 0 to 14, ten times.
 *
 * description: This function prints numbers from 0 to 14 in a single line,
-* repeating this sequence ten times. Each sequence of numbers is followed by a new line.
+* repeating this sequence ten times. 
+* Each sequence of numbers is followed by a new line.
 *
 * Return: this function does not return any value (void)
 */
