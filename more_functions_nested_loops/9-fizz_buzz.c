@@ -2,8 +2,9 @@
 
 int main(void)
 {
-	
-	for (int number = 1; number <= 100; number ++)
+	int number;
+
+	for (number = 1; number <= 100; number ++)
 	{
 	if (number % 3 == 0 && number % 5 == 0)
 	{
