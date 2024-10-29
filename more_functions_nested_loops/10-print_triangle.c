@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
+ *void print_triangle
+ print triangle with charactere #
  *
- * Return: Always 0.
+ * Return: blank or #.
  */
 void print_triangle(int size)
 {
@@ -23,9 +24,8 @@ void print_triangle(int size)
 			for (j = 0; j < i; j++)
 			{
 				_putchar(' ');
-				_putchar('#');
 			}
-			_putchar(' ');
+			_putchar('#');
 			_putchar('\n');
 		}
 	}
