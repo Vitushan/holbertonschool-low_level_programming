@@ -8,7 +8,7 @@
  */
 void print_square(int size)
 {
-	int row, col;
+	int line, col;
 
 	if (size <= 0)
 	{
@@ -16,7 +16,7 @@ void print_square(int size)
 	}
 	else
 	{
-		for (row = 0; row < size; row++)
+		for (line = 0; row < size; row++)
 		{
 			for (col = 0; col < size; col++)
 			{
@@ -27,3 +27,4 @@ void print_square(int size)
 		}
 	}
 }
+//col = column (colonne)
