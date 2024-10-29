@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-*print_triangle - prints a triangle with the character #
-*#size: the size of the triangle
-* Return: void
-*/
+ * print_triangle - prints a triangle with the character #
+ * @size: the size of the triangle (number of rows)
+ *
+ * Return: void
+ */
 void print_triangle(int size)
 {
 
