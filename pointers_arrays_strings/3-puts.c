@@ -2,9 +2,8 @@
 
 void _puts(char *str)
 {
-	char holberton [] = "Holberton";
 
-	printf("%s\n", holberton);
+	printf("%s\n", str);
 	
 }
 
