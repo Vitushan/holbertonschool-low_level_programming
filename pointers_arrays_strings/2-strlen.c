@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
- * _strlen function  returns the lenght of a string.
- * return : lenght of a string
- * **/
+* _strlen - Returns the length of a string.
+* @s: The string whose length is to be measured.
+* 
+* Return: The length of the string.
+*/
 int _strlen(char *s)
 {
 	int longeurChaine = 0;
