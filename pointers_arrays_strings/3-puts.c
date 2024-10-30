@@ -5,7 +5,8 @@
  * @str: Pointeur vers la chaîne de caractères à afficher.
  *
  * Description: Cette fonction prend un pointeur vers une chaîne de 
- * caractères et affiche chaque caractère sur la sortie standard dans une boucle.
+ * caractères et affiche chaque caractère sur la sortie standard 
+ * dans une boucle.
  * Return: void
  */
 void _puts(char *str)
