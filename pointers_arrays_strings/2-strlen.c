@@ -5,12 +5,12 @@
  * **/
 int _strlen(char *s)
 {
-	int longeurChaine = 0;	
-	
+	int longeurChaine = 0;
+
 	while (s[longeurChaine] != '\0')
 	{
 		longeurChaine++;
 	}
-	return longeurChaine;
+	return (longeurChaine);
 }
 
