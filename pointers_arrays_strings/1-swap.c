@@ -1,12 +1,11 @@
 #include <stdio.h>
+
 /**
- *  void swap_int(int *a, int *b)
- *  @*a integer one
- *  @*b integer two
- *  temporaire is temp variable for reverse two int.
- *  reverse the result in variable or pointer.
- *  return: always  void.
- *  **/
+*swap_int - Swaps the value of two integers.
+*@a: pointer to the first integer.
+*@*b pointer to the second integer.
+*return: always void.
+**/
 void swap_int(int *a, int *b)
 {
 	int temporaire = *a;
