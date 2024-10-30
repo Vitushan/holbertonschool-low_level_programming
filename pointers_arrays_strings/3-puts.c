@@ -1,12 +1,14 @@
 #include "main.h"
-/**
- *void _puts est une fonction
- *qui imprimes les chaines de caracteres
- dans le pointeur str
+
+ /**
+ * _puts - Affiche une chaîne de caractères.
+ * @str: Pointeur vers la chaîne de caractères à afficher.
  *
- * avec une boucle en incremantant i.
- *return: void
-**/
+ * Description: Cette fonction prend un pointeur vers une chaîne de 
+ * caractères et affiche chaque caractère sur la sortie standard dans une boucle,
+ * en terminant avec un saut a la ligne .
+ * Return: void
+ */
 void _puts(char *str)
 {
 	int i = 0;
