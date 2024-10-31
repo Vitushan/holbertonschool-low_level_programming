@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
-* void print_rev
-* @ caractere pointé sur *s 
-* affiche la chaine de caractere a l'envers,
-* suivis d'une nouvelle ligne.
-* return: void.
-* **/
+ * print_rev - Affiche une chaîne de caractères à l'envers, suivie d'une nouvelle ligne.
+ * @s: Pointeur sur la chaîne de caractères à afficher en inverse.
+ *
+ * Cette fonction prend une chaîne de caractères et l'affiche à l'envers,
+ * suivie d'un caractère de nouvelle ligne. La fonction ne retourne aucune valeur.
+ *
+ * Return: void.
+ */
 void print_rev(char *s)
 {
 	int i = 0;
