@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * void rev_string
- *  Calculer la longueur de la chaîne
- *  Initialiser j pour qu'il pointe vers le dernier caractère
- *  Inversion de la chaîne
- *  @s caractere s
- *  return: void
- *  **/
+* rev_string - Inverse une chaîne de caractères
+* @s: la chaîne de caractères à inverser
+*
+* Cette fonction prend un pointeur vers une chaîne de caractères
+* et inverse l'ordre des caractères dans cette chaîne.
+* Elle ne retourne rien, car elle modifie directement la chaîne en place.
+*/
 void rev_string(char *s)
 {
 	int length = 0;
