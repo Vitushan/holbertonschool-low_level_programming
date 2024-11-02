@@ -3,9 +3,9 @@
 /**
 * puts_half - Imprime la seconde moitié d'une chaîne
 * @str: La chaîne de caractères à traiter
-*
 * Description: Cette fonction imprime la seconde moitié de la chaîne.
-* Si la longueur est impaire, elle imprime les (longueur - 1) / 2 derniers caractères.
+* Si la longueur est impaire,
+* elle imprime les (longueur - 1) / 2 derniers caractères.
 */
 void puts_half(char *str)
 {
@@ -14,7 +14,7 @@ void puts_half(char *str)
 
 	while (str[length] != '\0')
 	{
-        length++;
+		length++;
 	}
 
 	if (length % 2 == 0)
@@ -25,9 +25,9 @@ void puts_half(char *str)
 	{
 		start = (length - 1) / 2 + 1;
 	}
-    
+
 	while (str[start] != '\0')
-	{	
+	{
 		_putchar(str[start]);
 		start++;
 	}
