@@ -2,7 +2,7 @@
 
 /**
 * char *_memset
-* La fonction _memset() remplit les n premiers octets de la zone mémoire 
+* La fonction _memset() remplit les n premiers octets de la zone mémoire
 * pointée par s avec l'octet constant b
 *Renvoie un pointeur vers la zone mémoire s
 * @ *s, @b, @n.
