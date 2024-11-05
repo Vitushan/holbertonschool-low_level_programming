@@ -6,30 +6,29 @@
  * @needle: La sous-chaîne à trouver
  *
  * Return: Pointeur vers le début de la sous-chaîne trouvée, ou NULL si non trouvée
- */
+ */ 
 char *_strstr(char *haystack, char *needle)
 {
-    char *h, *n;
+    char *hay, *need;
 
     if (*needle == '\0')
         return (haystack);
 
     while (*haystack != '\0')
     {
-        h = haystack;
-        n = needle;
+        hay = haystack;
+        need = needle;
 
-        while (*n != '\0' && *h == *n)
+        while (*need != '\0' && *hay == *need)
         {
-            h++;
-            n++;
+            hay++;
+            need;
         }
 
-        if (*n == '\0')
-            return (haystack);
+        if (*need == '\0')
+        return (haystack);
 
-        haystack++;
+        haystack++; 
     }
-
     return (0);
 }
