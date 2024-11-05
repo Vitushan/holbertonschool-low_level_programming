@@ -1,34 +1,33 @@
 #include "main.h"
 
 /**
- * _strstr - Localise une sous-chaîne
- * @haystack: La chaîne principale dans laquelle chercher
- * @needle: La sous-chaîne à trouver
+ * _strstr - Locates a substring
+ * @haystack: The main string to search within
+ * @needle: The substring to find
  *
- * Return: Pointeur vers le début de la sous-chaîne trouvée, ou NULL si non trouvée
- */ 
+ * Return: Pointer to the beginning of the located substring, or NULL if not found
+ */
 char *_strstr(char *haystack, char *needle)
 {
-    char *hay, *need;
+	if (*needle == '\0')
+		return (haystack);
 
-    if (*needle == '\0')
-        return (haystack);
+	while (*haystack != '\0')
+	{
+		char *hay = haystack;
+		char *need = needle;
 
-    while (*haystack != '\0')
-    {
-        hay = haystack;
-        need = needle;
+		while (*need != '\0' && *hay == *need)
+		{
+			hay++;
+			need++;
+		}
 
-        while (*need != '\0' && *hay == *need)
-        {
-            hay++;
-            need;
-        }
+		if (*need == '\0')
+			return (haystack);
 
-        if (*need == '\0')
-        return (haystack);
+		haystack++;
+	}
 
-        haystack++; 
-    }
-    return (0);
+	return (0);
 }
