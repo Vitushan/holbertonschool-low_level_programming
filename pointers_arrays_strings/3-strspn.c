@@ -2,8 +2,8 @@
 
 /**
 * _strspn - récupère la longueur d'une sous-chaîne de préfixes.
-* @s: la chaîne à examiner
-* @accept: la chaîne contenant les caractères à compter*
+* @s: la chaîne à parcourir
+* @accept: la chaîne contenant les caractères à compter.
 * Return: Renvoie le nombre d'octets dans le segment initial de s
 * qui consiste uniquement en octets provenant de accept.
 */
@@ -15,7 +15,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i]; i++) /* on regarde chaque caractere de s*/
 	{
-	for (j = 0; accept[j]; j++) /* on compare avec chaque caractere de accept*/
+		for (j = 0; accept[j]; j++) /* on compare avec chaque caractere de accept*/
 
 	{
 	if (s[i] == accept[j]) /* si on trouve une correspondance*/
