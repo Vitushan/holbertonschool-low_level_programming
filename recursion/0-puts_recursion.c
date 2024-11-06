@@ -8,10 +8,13 @@
 */
 void _puts_recursion(char *s)
 {
-	if (*s == '\0')
+	if (*s == '\0')         /*Si on est à la fin de la chaîne*/
 	{
-		_putchar(*s);
-		_putchar('\n');
+	_putchar('\n');     /*Imprime un retour à la ligne
+	return;              Fin de la récursion */
 	}
+	_putchar(*s);           /*Imprime le caractère actuel
+	_puts_recursion(s + 1); Appel récursif avec le caractère suivant*/
 }
+
 
