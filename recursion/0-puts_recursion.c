@@ -13,8 +13,7 @@ void _puts_recursion(char *s)
 	_putchar('\n');     /*Imprime un retour à la ligne
 	return;              Fin de la récursion */
 	}
-	_putchar(*s);           /*Imprime le caractère actuel
-	_puts_recursion(s + 1); Appel récursif avec le caractère suivant*/
+	_putchar(*s);           /*Imprime le caractère actuel*/
 }
 
 
