@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _puts_recursion
+ * _puts_recursion affiche une chaine de caractere
+ * suivis d'une nouvelle ligne.
  * @*s pointe sur s
  * return: void
  **/
