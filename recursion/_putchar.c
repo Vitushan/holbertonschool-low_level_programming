@@ -6,7 +6,7 @@
  * Return: en cas de succes 1.
  * En cas d'erreur, -1 sinon 0.
  * */
-int _putcharc(char c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
