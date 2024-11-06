@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _puts_recursion affiche une chaine de caractere
- * suivis d'une nouvelle ligne.
- * @*s pointe sur s
- * return: void
- **/
+* _puts_recursion - Imprime une chaîne de caractères 
+* suivie d'une nouvelle ligne.
+* @s: Pointeur vers la chaîne de caractères à imprimer
+* Return: Aucun (void)
+*/
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
