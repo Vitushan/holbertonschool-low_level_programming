@@ -9,11 +9,11 @@
  */
 int _sqrt_helper(int n, int i)
 {
-    if (i * i > n)      /* Si i^2 est supérieur à n, il n'y a pas de racine carrée naturelle */
-        return (-1);
-    if (i * i == n)     /* Si i^2 est égal à n, on a trouvé la racine carrée naturelle */
-        return (i);
-    return (_sqrt_helper(n, i + 1)); /* Appel récursif avec i incrémenté */
+	if (i * i > n) /* Si i^2 est supérieur à n, il n'y a pas de racine carrée naturelle */
+		return (-1);
+	if (i * i == n) /* Si i^2 est égal à n, on a trouvé la racine carrée naturelle */
+		return (i);
+	return (_sqrt_helper(n, i + 1)); /* Appel récursif avec i incrémenté */
 }
 
 /**
@@ -24,7 +24,7 @@ int _sqrt_helper(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-    if (n < 0)
-        return (-1); /* Un nombre négatif n'a pas de racine carrée naturelle */
-    return (_sqrt_helper(n, 1)); /* On commence à tester avec i = 1 */
+	if (n < 0)
+		return (-1); /* Un nombre négatif n'a pas de racine carrée naturelle */
+	return (_sqrt_helper(n, 1)); /* On commence à tester avec i = 1 */
 }
