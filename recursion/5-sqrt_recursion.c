@@ -7,18 +7,14 @@ _sqrt_recursion - calcule la racine carrée naturelle d'un nombre
 */
 int _sqrt_recursion(int n)
 {
-    if (n < 0)
-        return (-1); /* Un nombre négatif n'a pas de racine carrée naturelle */
-    return (_sqrt_helper(n, 0)); /* On commence à tester avec i = 0 */
+    return _sqrt_helper(n, 1);
 }
 
 int _sqrt_helper(int n, int i)
 {
+    if (i * i == n)
+        return i;
     if (i * i > n)
-        return (-1);
-
-        if (i * i == n)
-            return (i);
-
-        return (_sqrt_helper(n, i + 1));
+        return -1;
+    return _sqrt_helper(n, i + 1);
 }
