@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * _sqrt_helper - Fonction auxiliaire pour trouver la racine carrée naturelle de n.
+ * _sqrt_helper - Fonction auxiliaire pour trouver 
+ * la racine carrée naturelle de n.
  * @n: Le nombre dont on veut trouver la racine carrée.
- * @i: Le nombre en cours de test pour voir s'il est la racine carrée de n.
- *
- * Return: La racine carrée naturelle de n ou -1 si elle n'existe pas.
+ * @i: Le nombre en cours de test pour 
+ * voir s'il est la racine carrée de n.
+ * Return: La racine carrée naturelle de n ou -1 
+ * si elle n'existe pas.
  */
 int _sqrt_helper(int n, int i)
 {
@@ -25,6 +27,7 @@ int _sqrt_helper(int n, int i)
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
-		return (-1); /* Un nombre négatif n'a pas de racine carrée naturelle */
+		
+        return (-1); /* Un nombre négatif n'a pas de racine carrée naturelle */
 	return (_sqrt_helper(n, 1)); /* On commence à tester avec i = 1 */
 }
