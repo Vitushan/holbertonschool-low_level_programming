@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 char *_strdup(char *str)
 {
@@ -14,13 +15,13 @@ char *_strdup(char *str)
     return (NULL);
 
     while (str[len] != '\0') /*calcule de la longeur de str pr l'allocation de mémoire*/
-        len++
+        len++;
 
         p_str = (char *)malloc((len+1) * sizeof(char));/*Allocation de memoire pr la copie de la chaine*/
        
-        if (p_str == (NULL))
+        if (p_str == (NULL))      
         return (NULL); /*retourne NULL si l'allcocation echoue*/
-
+        
         for (i = 0; i < len; i++) /*copie de chaque caractere nul a la fin de la chaine*/
         p_str[i] = str[i];
         
