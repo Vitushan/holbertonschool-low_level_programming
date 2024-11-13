@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * malloc_checked - alloue de la memoire en utilisant malloc.
- * @b: nombre d'octets a allouer.
+ * malloc_checked - alloue de la memoire en utilisant malloc
+ * @b: nombre d'octets a allouer
  *
- * Return: pointeur vers la mémoire allouée.
- * Termine le processus avec l'erreur 98 si malloc echoue.
+ * Return: pointeur vers la memoire allouee
  */
 void *malloc_checked(unsigned int b)
 {
@@ -14,8 +13,6 @@ void *malloc_checked(unsigned int b)
 
 	ptr = malloc(b);
 	if (ptr == NULL)
-	{
 		exit(98);
-	}
 	return (ptr);
 }
