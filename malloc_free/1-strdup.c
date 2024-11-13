@@ -6,7 +6,7 @@ int len, i;
 if (str == NULL)
 return (NULL);
 for (len = 0; str[len]; len++)
-;
+
 dup = malloc(sizeof(char) * (len + 1));
 if (dup == NULL)
 return (NULL);
