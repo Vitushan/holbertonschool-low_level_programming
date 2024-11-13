@@ -1,11 +1,10 @@
 #include <stdlib.h>
 
 /**
- *alloc_grid - Allour un tableau 2d d'entiers initialisés a zero
- *un tableau d'entier a deux dimensions.
- *@:width largeur du tableau (nombre de colonne)
- *@:height  hauteur du tableau (nombre de ligne)
- Return: pointeur vers le tableau 2D (int**), ou NULL en cas d'echec
+ * alloc_grid - Alloue un tableau 2D d'entiers initialisés à zéro.
+ * @width: nombre de colonnes
+ * @height: nombre de lignes
+ * Return: Pointeur vers le tableau 2D ou NULL si l'allocation échoue.
  */
 int **alloc_grid(int width, int height)
 {
