@@ -2,12 +2,12 @@
 #include "function_pointers.h"
 
 /**
- * int_index - renvoie l'indice du premier element pour lequel
- * la fonction cmp ne renvoie pa 0.
- * @array:est le pointeur vers le tableau d'un entier.
- * @size: taille du tableau.
- * @cmp: pointeur vers la fonction a utiliser pour comparer les valeurs.
- * Return : -1 
+ * int_index - recherche un entier dans un tableau
+ * @array: pointeur vers le tableau d'entiers
+ * @size: nombre d'éléments dans le tableau
+ * @cmp: pointeur vers la fonction à utiliser pour comparer les valeurs
+ * Return: indice du premier élément pour lequel cmp ne renvoie pas 0, 
+ * ou -1 si aucun élément ne correspond ou si size <= 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
