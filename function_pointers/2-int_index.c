@@ -23,16 +23,3 @@ int int_index(int *array, int size, int (*cmp)(int))
 			}
 		return (-1);
 }
-
-
-
-
-/*
-Écrire une fonction qui recherche un entier.
-Prototype : int int_index(int *tableau, int size, int (*cmp)(int)) ;
-où size est le nombre d'éléments dans le tableau array
-cmp est un pointeur vers la fonction à utiliser pour comparer les valeurs
-int_index renvoie l'indice du premier élément pour lequel la fonction cmp ne renvoie pas 0
-Si aucun élément ne correspond, renvoie -1
-Si taille <= 0, retour à -1
-*/
