@@ -6,7 +6,7 @@
  * @array: pointeur vers le tableau d'entiers
  * @size: nombre d'éléments dans le tableau
  * @cmp: pointeur vers la fonction à utiliser pour comparer les valeurs
- * Return: indice du premier élément pour lequel cmp ne renvoie pas 0, 
+ * Return: indice du premier élément pour lequel cmp ne renvoie pas 0,
  * ou -1 si aucun élément ne correspond ou si size <= 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
