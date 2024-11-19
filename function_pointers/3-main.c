@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
-
+/** 
+ * @argc: argument count doit etre egal a 4
+ * @argv: argument 2 nombre et un operande.
+ * Return: 0 si succés.
+*/
 int main(int argc, char *argv[])
 {
 	int result = 0, num1 = 0, num2 = 0;

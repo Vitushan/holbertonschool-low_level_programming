@@ -3,7 +3,7 @@
 #include "3-calc.h"
 
 /**
- *  get_op_function - selectionne les bonne operations de calcul
+ *  get_op_func - selectionne les bonne operations de calcul
  * @s: operateur choisit par l'utilisateur.
  * return: un pointeur de fonction qui correspond
  *  a l'operateur donner en parametre s.
@@ -22,7 +22,7 @@ int (*get_op_func(char *s))(int, int)
 	
 	while (ops[i].op != NULL)
 	{
-		if (*ops[i].op == *s)
+		if (*ops[i].op == *s && strlen(s) == 1)
 		{
 			return (ops[i].f);
 		}
