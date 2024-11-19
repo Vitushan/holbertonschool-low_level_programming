@@ -5,16 +5,18 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	int result = 0, i;
+	int result = 0;
+	unsigned i = 0;
+	va_list ap;
 
 	if (n == 0)
 		return (0);
 		
-	va_list ap;
+	
 	va_start (ap, n);
 	while (i < n)
 	{
-		result += va_arg(ap, int);
+		 result += va_arg(ap, int);
 		i++;
 	}
 	
