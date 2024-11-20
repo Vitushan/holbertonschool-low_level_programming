@@ -11,7 +11,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
 	int result = 0; /*stock la somme des nombres (resultat)*/
-	unsigned int i;
+	unsigned int i; 
 	va_list ptr; /*permet de gerer les arguments variadiques*/
 
 	if (n == 0)
