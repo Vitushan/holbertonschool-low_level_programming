@@ -13,20 +13,22 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list list;
+	char *str;
 
 	va_start(list, n);
 
 	for (i = 0; i < n; i++)
 	{
-		if (va_arg(list, char*) == NULL)
+		str = va_arg(list, char*);
+		if (str == NULL)
 			printf("nil");
 		else
-			printf("%s", va_arg(list, char*));
+			printf("%s", str);
 		if (separator != NULL && i != n - 1) /*!= different de / ou n'est pas */
 			printf("%s", separator);
 	}
 
-		printf("\n");
+	printf("\n");
 
-			va_end(list);
+	va_end(list);
 }
