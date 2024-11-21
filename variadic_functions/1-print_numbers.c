@@ -4,9 +4,9 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - imprime des numeros
+ * print_numbers - imprime des nombres
  * @separator: chaine de caractere.
- * @n: nombre d'argument.
+ * @n: nombre d'argument pris en compte.
  * Return: void.
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
