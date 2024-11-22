@@ -11,10 +11,8 @@ void print_string (va_list args)
 {
 	char *str = va_arg(args, char *);
 	if (str == NULL)
-		printf("(nil)");
-	else
-		printf("%s", str);
-
+		str = "(nil)";
+	printf("%s", str);
 }
 
 void print_int (va_list args)
