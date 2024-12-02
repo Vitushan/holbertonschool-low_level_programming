@@ -3,16 +3,12 @@
 #include <stdio.h>
 #include <string.h>
 
-/**print_list - imprime tous les éléments d'une liste de type_t.
- @h:Pointeur vers le premier noeud de la liste
- Return: le nombre de caractere imprimé.
-*/
-size_t print_list(const list_t *h) //structure head (h)
+
+size_t print_list(const list_t *h)
 {
-	const list_t *current = h; //actuel
+	const list_t *current = h;
 	size_t count = 0;
-	
-	
+
 	while (current != NULL)
 	{
 		if (current->str == NULL)
