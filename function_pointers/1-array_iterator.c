@@ -6,7 +6,7 @@
 * sur chaque element d'un tableau.
 * @array: pointeur vers le tableau d'entiers.
 * @size: Taille du tableau
-* @action: pointeur ver la fonction a executer pour chaque elements.
+* @action: pointeur vers la fonction a executer pour chaque elements.
 */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
