@@ -3,31 +3,27 @@
 #include <stdio.h>
 #include <string.h>
 
+/**print_list - imprime tous les éléments d'une liste de type_t.
+ @h:Pointeur vers le premier noeud de la liste
+ Return: le nombre de caractere imprimé.
+*/
 size_t print_list(const list_t *h)
 {
 	
 	size_t count = 0;
 	
 	while (h != NULL)
-	if (h->str == NULL)
 	{
-		printf("[0] (nil)\n");
-	}
-	else
-	{
-		printf("[%lu] %s\n", h->len, h->str);
-	}
+		if (h->str == NULL)
+		{
+			printf("[0] (nil)\n");
+		}
+			else
+			{
+				printf("[%lu] %s\n", h->len, h->str);
+			}
 	count++;
-	h = h ->next;
-
+	h = h->next;
+	}
 		return (count);
-
-}
-
-/*Écrire une fonction qui imprime tous les éléments d'une liste list_t.
-
-Prototype : size_t print_list(const list_t *h) ;
-Retour : le nombre de noeuds
-Format : voir l'exemple
-Si str est NULL, print [0] (nil)
-Vous pouvez utiliser printf*/
+		}
