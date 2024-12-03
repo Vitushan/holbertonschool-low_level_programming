@@ -6,8 +6,8 @@
 /**
  * print_list - Imprime tous les éléments d'une liste de type list_t.
  * @h: Pointeur vers le premier nœud de la liste.
- * current signifie actuel
- * Retourne: Le nombre total de caractères dans toutes les chaînes.
+ * @size_t: imprime le nombre total de caractere.
+ * Return: Le nombre total de caractères dans toutes les chaînes.
  */
 size_t print_list(const list_t *h)
 {
