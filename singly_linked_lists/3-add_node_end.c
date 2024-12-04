@@ -4,11 +4,9 @@
 #include <string.h>
 
 /**
-* add_node_end - permet d'ajouter le dernier noeud dans une liste deja existant
-* au début.
-* @str: chaine de caractere.
-* @head: un pointeur qui pointe sur un pointeur qui va pointer sur head
-* Return: un pointeur sur le nouveau noeud ou NULL en cas d'echec.
+* _strlen - Returns the length of a string.
+* @str: The string whose length is to be measured.
+* Return: The length of the string.
 */
 unsigned int _strlen(const char *str)
 {
@@ -21,6 +19,13 @@ unsigned int _strlen(const char *str)
 	return (len);
 }
 
+/**
+* add_node_end - permet d'ajouter le dernier noeud dans une liste deja existant
+* au début.
+* @str: chaine de caractere.
+* @head: un pointeur qui pointe sur un pointeur qui va pointer sur head
+* Return: un pointeur sur le nouveau noeud ou NULL en cas d'echec.
+*/
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node;
