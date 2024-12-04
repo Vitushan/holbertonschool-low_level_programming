@@ -4,12 +4,12 @@
 #include <string.h>
 
 /**
- * add_node_end - permet d'ajouter le dernier noeud dans une liste deja existant
- * au début.
- * @str: chaine de caractere.
- * @head: un pointeur qui pointe sur un pointeur qui va pointer sur head
- * Return: un pointeur sur le nouveau noeud ou NULL en cas d'echec.
- */
+* add_node_end - permet d'ajouter le dernier noeud dans une liste deja existant
+* au début.
+* @str: chaine de caractere.
+* @head: un pointeur qui pointe sur un pointeur qui va pointer sur head
+* Return: un pointeur sur le nouveau noeud ou NULL en cas d'echec.
+*/
 unsigned int _strlen(const char *str)
 {
 	unsigned int len = 0;
