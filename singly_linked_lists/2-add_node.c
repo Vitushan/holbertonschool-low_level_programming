@@ -24,7 +24,7 @@ unsigned int _strlen(const char *str)
  * au début.
  * @str: chaine de caractere.
  * @head: un pointeur qui pointe sur un pointeur qui va pointer sur head
- * Return: un pointeur sur le nouveau noeud.
+ * Return: un pointeur sur le nouveau noeud ou NULL en cas d'echec.
  */
 list_t *add_node(list_t **head, const char *str)
 {
@@ -46,9 +46,9 @@ list_t *add_node(list_t **head, const char *str)
 		return (NULL);
 	}
 
+	new_node->len = _strlen(str);
 	new_node->next = *head;
 	*head = new_node;
-	new_node->_strlen(str);
 
 	return (new_node);
 }
