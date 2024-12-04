@@ -4,22 +4,6 @@
 #include <string.h>
 
 /**
-* _strlen - Returns the length of a string.
-* @str: The string whose length is to be measured.
-* Return: The length of the string.
-*/
-unsigned int _strlen(const char *str)
-{
-	unsigned int len = 0;
-
-	while (str[len] != '\0')
-	{
-		len++;
-	}
-	return (len);
-}
-
-/**
  * add_node - permet d'ajouter un nouveau noeud dans une liste deja existant
  * au début.
  * @str: chaine de caractere.
