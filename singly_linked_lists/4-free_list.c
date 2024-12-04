@@ -10,7 +10,7 @@
 void free_list(list_t *head)
 {
 	list_t *tempo;
-	
+
 	while (head != NULL)
 	{
 		tempo = head;
@@ -18,4 +18,5 @@ void free_list(list_t *head)
 		free(tempo->str);
 		free(tempo);
 	}
+	return (0);
 }
