@@ -28,19 +28,16 @@ unsigned int _strlen(const char *str)
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *last_node;
+	list_t *new_node;
 
 	if (str == NULL)
-	{
-		return (NULL);
-	}
+	return (NULL);
+	
 
 	new_node = malloc(sizeof(list_t));
 
 	if (new_node == NULL)
-	{
 		return (NULL);
-	}
 
 	new_node->str = strdup(str);
 	if (new_node->str == NULL)
@@ -51,15 +48,7 @@ list_t *add_node(list_t **head, const char *str)
 
 	new_node->next = *head;
 	*head = new_node;
-	new_node->len = _strlen(str);
+	new_node->_strlen(str);
+
 	return (new_node);
 }
-
-/**
- * Écrivez une fonction qui ajoute un nouveau nœud à la fin d'une liste list_t.
-Prototype : list_t *add_node_end(list_t **head, const char *str) ;
-Return : l'adresse du nouvel élément, ou NULL en cas d'échec
-str doit être dupliqué
-Vous êtes autorisé à utiliser strdup
-
- */
