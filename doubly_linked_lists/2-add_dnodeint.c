@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-* add_dnodeint - Ajoute un nouveau au début d'une liste
+* add_dnodeint - Ajoute un nouveau noeud au début d'une liste
 * dlistint_t.
 * @head: Double pointeur vers la tete de la liste.
 * @n: Valeur a ajouter dans le nouveau noeud
