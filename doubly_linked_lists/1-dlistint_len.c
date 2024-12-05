@@ -10,8 +10,9 @@ size_t dlistint_len(const dlistint_t *h)
 	while (h != NULL)
 	{
 		printf("%d", h->n);
-		len++;
 		h = h->next;
+		len++;
+	
 	}
 	return (len);
 }
