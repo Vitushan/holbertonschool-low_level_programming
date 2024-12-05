@@ -17,6 +17,7 @@ int main(void)
 
     head = &hello;
     new = malloc(sizeof(dlistint_t));
+
     if (new == NULL)
     {
         dprintf(2, "Error: Can't malloc\n");
