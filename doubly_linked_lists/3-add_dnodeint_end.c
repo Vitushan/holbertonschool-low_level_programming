@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+* add_dnodeint - Ajoute un nouveau noeud a la fin d'une liste
+* dlistint_t.
+* @head: Double pointeur vers la tete de la liste.
+* @n: Valeur a ajouter dans le nouveau noeud
+@last:dernier pointeur sur noeud
+* Return: Adresse du nouvel élement, ou NULL si echec.
+*/
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node;
