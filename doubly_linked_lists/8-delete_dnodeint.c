@@ -3,7 +3,7 @@
 
 /**
 * delete_dnodeint_at_index - Supprime le nœud à un index donné
-dans une liste doubly linked list.
+*dans une liste doubly linked list.
 * @head: Double pointeur vers le début de la liste.
 * @index: Index du nœud à supprimer (commence à 0).
 * Return: 1 en cas de succès, -1 en cas d'échec.
