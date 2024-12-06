@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
-* insert_dnodeint_at_index - insere un nouveau noeud a une 
+* insert_dnodeint_at_index - insere un nouveau noeud a une
 * position donnée.
 * @h:double pointeur vers la tete de la liste
 * @idx: indice ou le nouveau noeud doit etre ajouté
