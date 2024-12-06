@@ -11,7 +11,6 @@
 * Return n ou 0 si liste est vide
 */
 int sum_dlistint(dlistint_t *head)
-
 {
-	
+		
 }
