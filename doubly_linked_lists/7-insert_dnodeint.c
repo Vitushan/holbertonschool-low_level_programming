@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+* insert_dnodeint_at_index - insere un nouveau noeud a une 
+* position donnée.
+* @h:double pointeur vers la tete de la liste
+* @idx: indice ou le nouveau noeud doit etre ajouté
+* @n:valeur a inserer dans le nouveau boeud
+* Return: adresse du nouveau noeud, ou NULL en cas d'echec
+*/
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node, *current;
