@@ -3,7 +3,8 @@
 #include <fcntl.h>
 
 /**
- * read_textfile - Lit un fichier texte et l'imprime sur la sortie standart POSIX
+ * read_textfile - Lit un fichier texte et
+ * l'imprime sur la sortie standart POSIX
  * @filename: le nom du fichier a lire
  * @letters:le nombre de lettre a lire et imprimer
  * Return: le nombre de caractere lues et imprimée
@@ -17,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buffer;
 
 	if (filename == NULL)
-		return 0;
+		return (0);
 
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
@@ -25,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	buffer = malloc(sizeof(char) * letters);
 	if (buffer == NULL)
-	{	
+	{
 		close(fd);
 		return (0);
 	}
