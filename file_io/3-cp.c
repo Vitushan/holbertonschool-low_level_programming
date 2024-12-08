@@ -19,7 +19,6 @@ void print_error(const char *message, const char *filename, int exit_code)
  * main - Copie le contenu d'un fichier dans un autre
  * @argc: Le nombre d'arguments
  * @argv: Les arguments passés au programme
- * 
  * Return: 0 en cas de succès, sinon un code d'erreur spécifique
  */
 int main(int argc, char *argv[])
@@ -27,16 +26,13 @@ int main(int argc, char *argv[])
 	int fd_from, fd_to, rd, wr;
 	char buffer[1024];
 
-	/* Vérifie que le nombre d'arguments est correct */
 	if (argc != 3)
 		print_error("Usage: cp file_from file_to", "", 97);
 
-	/* Ouvre le fichier source en lecture seule */
 	fd_from = open(argv[1], O_RDONLY);
 	if (fd_from == -1)
 		print_error("Can't read from file", argv[1], 98);
 
-	/* Ouvre ou crée le fichier de destination en écriture, avec troncature */
 	fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (fd_to == -1)
 	{
@@ -44,7 +40,7 @@ int main(int argc, char *argv[])
 		print_error("Can't write to", argv[2], 99);
 	}
 
-	/* Copie le contenu par blocs de 1024 octets */
+
 	do {
 		rd = read(fd_from, buffer, 1024);
 		if (rd == -1)
@@ -63,7 +59,6 @@ int main(int argc, char *argv[])
 		}
 	} while (rd > 0);
 
-	/* Ferme les fichiers et vérifie les erreurs de fermeture */
 	if (close(fd_from) == -1)
 		print_error("Can't close fd", argv[1], 100);
 
@@ -72,4 +67,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
